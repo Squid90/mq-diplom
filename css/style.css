@@ -35,7 +35,7 @@ body {
   box-sizing: border-box;
   margin: 56px auto;
   max-width: 330px;
-  padding: 30px 23px;
+  padding: 0 23px 30px 23px;
   background-color: #fff;
 }
 
@@ -44,7 +44,7 @@ body {
   width: 28px;
   height: 28px;
   position: relative;
-  top: -60px;
+  top: -30px;
   left: 280px;
   padding: 0;
   background-image: url(../svg/form-x.svg);
@@ -89,15 +89,14 @@ body {
 
 .select-list {
   appearance: none;
-  margin-top: 10px !important;
-  margin-bottom: 35px !important;
+  margin-top: 10px;
+  margin-bottom: 35px;
   box-sizing: border-box;
   width: 100%;
   height: 49px;
   background-color: #f4f7f6 !important;
   border: 0 solid;
   padding-left: 19px;
-  margin: 0;
   color: rgba(0, 0, 0, 0.54);
   font-size: 13px;
   font-family: "OpenSans", sans-serif;
@@ -995,11 +994,11 @@ picture {
   .popup-form {
     margin: 236px auto;
     max-width: 390px;
-    padding: 53px 30px;
+    padding: 0 30px 53px 30px;
   }
 
   .popup-button-close {
-    top: -90px;
+    top: -30px;
     left: 330px;
   }
 
@@ -1090,6 +1089,7 @@ picture {
 
   .general-content {
     max-width: 768px;
+    box-sizing: border-box;
     padding: 50px 35px;
     flex-direction: row;
     justify-content: space-around;
@@ -1192,11 +1192,11 @@ picture {
   .popup-form {
     margin: 236px auto;
     max-width: 390px;
-    padding: 53px 30px;
+    padding: 0 30px 53px 30px;
   }
 
   .popup-button-close {
-    top: -90px;
+    top: -30px;
     left: 330px;
   }
 
